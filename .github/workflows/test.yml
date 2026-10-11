@@ -1,0 +1,23 @@
+name: Test channels
+on:
+  push:
+    paths: [tester.py, channels.json, .github/workflows/test.yml]
+  schedule:
+    - cron: '17 */6 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: playlist
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 tester.py
+      - run: |
+          git config user.name "playlist-bot"
+          git config user.email "playlist-bot@users.noreply.github.com"
+          git add 123.m3u report.txt
+          git diff --cached --quiet || git commit -m "Auto test: update playlist"
+          git push

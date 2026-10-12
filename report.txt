@@ -1,10 +1,10 @@
-IPTV playlist test - 2026-10-12 06:10 UTC
-Tested from a GitHub server (USA). Took 241 seconds.
+IPTV playlist test - 2026-10-12 15:42 UTC
+Tested from a GitHub server (USA). Took 261 seconds.
 
 Channels tested : 1809
-Working         : 1191
-Removed (dead)  : 618
-Saved by a backup link : 138
+Working         : 1179
+Removed (dead)  : 630
+Saved by a backup link : 142
 
 Per category (working / tested):
      5 / 13    Urdu - Drama & Entertainment
@@ -13,58 +13,59 @@ Per category (working / tested):
      1 / 2     Urdu - Kids
      3 / 4     Urdu - Music
      2 / 2     Urdu - Food, Travel & Lifestyle
-     1 / 5     Urdu - Sports
-    17 / 36    Urdu - News
+     2 / 5     Urdu - Sports
+    18 / 36    Urdu - News
     20 / 27    Urdu - Religious
      1 / 6     Pakistan - Regional (Pashto, Punjabi, Sindhi)
-    34 / 39    Hindi - Movies
+    32 / 39    Hindi - Movies
     22 / 26    Hindi - Drama & Entertainment
      1 / 2     Hindi - Comedy
-     5 / 5     Hindi - Documentary & History
-    11 / 13    Hindi - Kids & Animation
+     3 / 5     Hindi - Documentary & History
+     6 / 13    Hindi - Kids & Animation
     18 / 18    Hindi - Music
      4 / 4     Hindi - Lifestyle
      4 / 7     Hindi - Sports
-    28 / 34    Hindi - General
-    50 / 79    English - Movies
-     9 / 19    English - Movies: Action & Thriller
+    29 / 34    Hindi - General
+    49 / 79    English - Movies
+     8 / 19    English - Movies: Action & Thriller
      9 / 15    English - Movies: Horror & Sci-Fi
     10 / 16    English - Movies: Comedy, Romance & Family
-    15 / 27    English - Movies: Classics & Westerns
+    16 / 27    English - Movies: Classics & Westerns
     74 / 166   English - Series & Drama
     74 / 116   English - Crime & Reality
     23 / 54    English - Comedy
     86 / 129   English - Entertainment
     16 / 30    English - Classic TV
-    16 / 26    English - History
+    17 / 26    English - History
     19 / 21    English - Nature & Wildlife
     49 / 65    English - Documentary & Science
-    70 / 110   English - Kids
+    69 / 110   English - Kids
     12 / 25    English - Animation & Anime
     11 / 13    English - Family
-   117 / 147   English - Music
+   114 / 147   English - Music
     23 / 32    English - Food & Cooking
-   114 / 145   English - Lifestyle, Travel & Hobbies
-    74 / 122   English - General TV
-   120 / 165   English - Other Channels
-    18 / 27    World - Movie Brands (other languages)
+   112 / 145   English - Lifestyle, Travel & Hobbies
+    77 / 122   English - General TV
+   118 / 165   English - Other Channels
+    17 / 27    World - Movie Brands (other languages)
 
 Why links failed (first link of each removed channel):
-   384  HTTP 403
+   382  HTTP 403
     98  URLError
-    68  HTTP 404
+    67  HTTP 404
     14  HTTP 400
+    13  HTTP 503
     12  quality list broken
-     8  video segment missing
+     9  video segment missing
      8  HTTP 502
-     7  no video segments
-     3  TimeoutError
-     3  web page instead of video
+     6  no video segments
+     5  web page instead of video
+     4  TimeoutError
      3  HTTP 504
-     3  HTTP 503
      3  not a video stream
+     2  ConnectionResetError
+     1  RemoteDisconnected
      1  HTTP 521
-     1  HTTP 204
      1  HTTP 406
      1  HTTP 574
 
@@ -74,35 +75,36 @@ Removed channels:
   [Urdu - General] Apna Channel; BS Film; Kay2 HD; Raavi TV; Sindh TV; Star Asia; TV One Global; TV Today; Venus HD
   [Urdu - Kids] Kids Zone
   [Urdu - Music] ARY Musik
-  [Urdu - Sports] M Sports; One Golf; PTV Sports; Ten Sports Pakistan
-  [Urdu - News] 92 News HD; ARY News; Aaj News; Abb Takk; Aik News; City 41; Hum News; Kohenoor News; Lahore Rang; M News; Metro1 News; ON News HD; PTV News; Public News; Roze News; Sindh TV News; Sky News Urdu; Suno News HD; VSH News
+  [Urdu - Sports] One Golf; PTV Sports; Ten Sports Pakistan
+  [Urdu - News] 92 News HD; ARY News; Aaj News; Abb Takk; Aik News; City 41; Hum News; Kohenoor News; Lahore Rang; Metro1 News; ON News HD; PTV News; Public News; Roze News; Sindh TV News; Sky News Urdu; Suno News HD; VSH News
   [Urdu - Religious] Iqra TV; MTA1 World; MTA2 Europe; MTA6 Asia; MTA7 Asia; Quran TV; Shine Star TV
   [Pakistan - Regional (Pashto, Punjabi, Sindhi)] AVT Khyber; Mashriq TV; Pashto 1; Rohi; Waseb TV
-  [Hindi - Movies] Shemaroo Filmi Gaane; Sony Wah; Zee Cine Classic; Zee Cinemalu; Zee South Flix
+  [Hindi - Movies] NH BollyGold; Shemaroo Filmi Gaane; Sony Wah; Star Gold; Zee Cine Classic; Zee Cinemalu; Zee South Flix
   [Hindi - Drama & Entertainment] Epic TV; Sony Pal; Zee Dil Se; Zee Horror Nights
   [Hindi - Comedy] Zee Comedy Nation
-  [Hindi - Kids & Animation] Disney Channel Hindi; Sony Yay!
+  [Hindi - Documentary & History] National Geographic Hindi; Sony BBC Earth
+  [Hindi - Kids & Animation] Disney Channel Hindi; ETV Bal Bharat; Hungama TV; Nickelodeon Hindi; Sonic Hindi; Sony Yay!; Super Hungama
   [Hindi - Sports] Kabaddi 24x7; Star Sports 2 Hindi; Star Sports 3
-  [Hindi - General] Aryan TV National; HSTV; Jus Hindi; Jus One; TV2; The Q India
-  [English - Movies] AXN; BET Cinema; BET Visionaries; CTB Perth Movies Channel; CinemaWorld; Curzon Cinema; Fresh Movies by VVS Films; Genie K Movie; HBO Movies; Lifetime Movie Favorites; Magnificent Movies Network; NEW K.MOVIES; Paramount Network; Paramount+ Picks; Pluto TV Drama; Pluto TV Drama Movies; Pluto TV Franchise Favorites; Pluto TV Icons; Pluto TV Spotlight; Pluto TV Staff Picks; Pluto TV Trending Now; Runtime; Star Channel; Star Trek Movies; Starz Cinema; Summer of Movies; TV Land Drama; The Film Detective; Thrill
-  [English - Movies: Action & Thriller] 50 Cent Action; Flicks of Fury; OSN Movies Action; Pluto TV Action; Pluto TV Action Movies; Pluto TV Crime Drama; Pluto TV Crime Movies; Pluto TV Reaction; Pluto TV Thrillers; Thrillers 365
+  [Hindi - General] Aryan TV National; Jus Hindi; Jus One; TV2; The Q India
+  [English - Movies] AMC Europe; AXN; BET Cinema; BET Visionaries; CTB Perth Movies Channel; CinemaWorld; Curzon Cinema; Fresh Movies by VVS Films; Genie K Movie; HBO Movies; Lifetime Movie Favorites; Magnificent Movies Network; NEW K.MOVIES; Paramount Network; Paramount+ Picks; Pluto TV Drama; Pluto TV Drama Movies; Pluto TV Franchise Favorites; Pluto TV Icons; Pluto TV Spotlight; Pluto TV Staff Picks; Pluto TV Trending Now; Runtime; Star Channel; Star Trek Movies; Starz Cinema; Summer of Movies; TV Land Drama; The Film Detective; Thrill
+  [English - Movies: Action & Thriller] 50 Cent Action; AXN Crime; Flicks of Fury; OSN Movies Action; Pluto TV Action; Pluto TV Action Movies; Pluto TV Crime Drama; Pluto TV Crime Movies; Pluto TV Reaction; Pluto TV Thrillers; Thrillers 365
   [English - Movies: Horror & Sci-Fi] More TV Sci-fi; Pluto TV Cult Films; Pluto TV Fantasy & Horror; Pluto TV Horror; Pluto TV Sci-Fi; Pluto TV Terror
   [English - Movies: Comedy, Romance & Family] BET Comedy Movies; Pluto TV Comedy Movies; Pluto TV Family Movie Club; Pluto TV Romance; Puro Romance; Romance 365
-  [English - Movies: Classics & Westerns] 00s Replay; 30A TV Classic Movies; 70s Cinema; 80s Rewind; 90s Throwback; Cinevault 80s; Classic Movies Channel; Pluto Classic Movie Westerns; Pluto TV Retro Action Movies; Pluto TV Westerns; TVS Film Noir Network; Western TV
+  [English - Movies: Classics & Westerns] 00s Replay; 70s Cinema; 80s Rewind; 90s Throwback; Cinevault 80s; Classic Movies Channel; Pluto Classic Movie Westerns; Pluto TV Retro Action Movies; Pluto TV Westerns; TVS Film Noir Network; Western TV
   [English - Series & Drama] Acapulco Shore; All My Children; Andromeda; Anthony Bourdain: Parts Unknown; Avatar; Battlestar Galactica; Beverly Hills 90210; Beyond Belief: Fact or Fiction; Black Ink Crew; Blue Bloods; Bonanza; CSI; CSI: Miami; CSI: NY; Cagney & Lacey; Cheers; Corner Gas; Doc Martin; Dynasty; Earth: Final Conflict; Ebony TV Drama; Epic Drama; Farscape; Feel Good Drama; Flashpoint; Frasier; Genie K Drama; Ghost Dimension; Gunsmoke; Hawaii Five-O; Hell's Kitchen; Hercules: The Legendary Journeys; Homicide Hunter; Iron Chef; Ironside; JAG; K Drama+; Kentucky Educational Television; Law & Order; Life & Legend of Wyatt Earp; Location Location Location; MacGyver; Married with Children; Million Dollar Listing; NCIS; Nash Bridges; Nashville; Nonstop Drama; Northern Exposure; Perry Mason; Pluto TV 80's Action; Pluto TV Adventure; Pluto TV FBI; Pluto TV Hometown Drama; Pluto TV Lives; Pluto TV Military; Pluto TV Sanctuary; Pluto TV Sci-fi Series; Pluto TV Sitcoms; Pluto TV Tough Jobs; Rawhide; RomCom K-Drama; Rookie Blue; Scorpion; Sister Sister; Six Million Dollar Man; Star Trek; Star Trek: Deep Space Nine; Star Trek: The Next Generation; Star Trek: The Original Series; Star Trek: Voyager; Stargate; T+E; Taxi; The Addams Family; The Bionic Woman; The Bob Ross Channel; The Conners; The Dick Van Dyke Show; The Incredible Hulk; The Nanny; The Outer Limits; The Rifleman; The Wild Wild West; The X-Files; Three's Company; Tosh.0; Touched by an Angel; U&Alibi; Weeds & Nurse Jackie; Xena: Warrior Princess; iCarly
   [English - Crime & Reality] 5 Emergency Rescue; 5 Trucking Hell; A Haunting; A&E Crime 360; AMC Reality; All Reality by WE tv; American Crimes; Bad Girls Club; Busted at the Border; Cheaters; Confess by Nosey; Cops; Crime Beat TV; Crime Up Close; Crime and Evidence; Crimes That Shook Britain; Criminal Minds; Dinner Date; Highway to Heaven; Let's Make A Deal; Living With Evil; Love After Lockup; Matched Married Meet by Lifetime; Meet Marry Murder; More TV Crime; More True Crime; Most Haunted: Unseen; Murdertown; Oxygen True Crime Archives; Pluto TV American True Crime; Pluto TV Crime; Pluto TV Storage Wars; Pluto TV True Crime; Pluto TV Wipeout; Real Disaster Channel; Scare Tactics; Supermarket Sweep; The First 48 by A&E; The Real Housewives; U&Real Heroes; UnXplained Zone; Warner Bros. TV Say Yes to the Dress
   [English - Comedy] Always Funny; America's Funniest Home Videos; BET Throwbacks; Black Family Sitcoms; British Comedy; Cheers + Frasier; Classic TV Comedy; Comedy Central Animation; Comedy Central Pluto TV; Comedy Central Roast; Funny AF; Hit Sitcoms; Humor Mill; Kevin Hart's LOL! Network; More Pluto TV Comedy; More TV Sitcoms; Planet Fun; Pluto TV Animation; Pluto TV Comedy; Ridiculousness; Sabrina The Teenage Witch; Sitcom Legends; Sketchy AF; South Park; South Park: Cartman Collection; South Park: Kenny Collection; South Park: Kyle Collection; South Park: Stan Collection; South Park: Welcome to Canada!; TV Land Sitcoms; U&Laughs
   [English - Entertainment] 5USA; AP TV; AXN White; America's Next Top Model; Auction Hunters; BET Classics Pluto TV; Best of Dr Phil; Beyond the Gates; Big Brother; Bondi Rescue; Car Chase; Dating Disasters; E! Keeping Up; E4; El Rey; Game Show Central; Geordie Shore; Hot Bench; ITV3; Island Luck TV; KIX; Kingsview TV; Lifetime Asia; Live Music; Logo Pluto TV; MTV Jersey Shore; MTV The Hills; MeTV; More TV Drama; Paranormal State; Pluto TV Game Shows; Pluto TV Reality; ROCK Action; ROCK Entertainment; ROCK X Stream; TV Today Janakpur; The Price Is Right; The Price Is Right: The Barker Era; The Yellow Couch with Jeremy Lynch; Tough Jobs; VH1 Queens of Reality; meWATCH LIVE 1; tvN Asia
   [English - Classic TV] Classic TV Crime Drama; Classic TV Drama; Classic TV: Families; Hogan's Heroes; I Love Lucy; Pluto TV Classic TV Variety; Pluto TV Retro Crime Action; Pluto TV Retro Crime Drama; Pluto TV Sherlock; Pluto TV The Twilight Zone; Puto TV Classic TV Crime Drama; The Beverly Hillbillies; The Love Boat; Timeless TV
-  [English - History] American Pickers; Ancient Aliens; Beyond History; History; History & Warfare; Pickers & Pawn; Pluto TV Britain at War; Pluto TV History; Smithsonian Channel Selects; U&The Past
+  [English - History] American Pickers; Ancient Aliens; Beyond History; History & Warfare; Pickers & Pawn; Pluto TV Britain at War; Pluto TV History; Smithsonian Channel Selects; U&The Past
   [English - Nature & Wildlife] Dog Whisperer with Cesar Millan; The Dog Whisperer with Caesar Millan
   [English - Documentary & Science] 30A Loomered TV; 60 Minutes; BBC Four; Docurama; FBI Files; Jail; PBS KET2; Pluto TV Alien Invasion; Pluto TV Paranormal; Pluto TV PetrolHeads; Pluto TV Science; Pluto TV Space; Reelz; Sensing Murder; Spike Pluto TV; Unsolved Mysteries with Dennis Farina
-  [English - Kids] 90's Kids; 90s Kids TV 2; Akili Kids!; Arthur; BBC Kids; Barney and Friends; CBBC; CBeebies; Canela Kids; Disney Channel; Disney XD; Dora TV; Forever Kids; Garfield and Friends; Go Go Gadget!; H2O & Friends; Ketchup TV; Kidoodle.TV; LEGO Kids TV; Leave it to Bryan; Little Angel's Playroom; Little Stars Universe; Max & Ruby; Mister Rogers' Neighborhood; Mona The Vampire; NCM Educational & Kids Channel; New Channel; New Channel Pop!; Nick Jr. Asia; Nickelodeon Asia; Nicktoons Scandinavia; PBS Kids Eastern/Central; Peppa Pig; Pluto TV Kids; Pluto TV Retro Kid; Strawberry Shortcake and Friends; The Raccoons; The Smurfs; Tortues Ninja TV; Transformers TV
+  [English - Kids] 90's Kids; 90s Kids TV 2; Akili Kids!; Arthur; BBC Kids; Barney and Friends; CBBC; CBeebies; Canela Kids; Disney Channel; Disney XD; Dora TV; Forever Kids; Garfield and Friends; Go Go Gadget!; H2O & Friends; JimJam; Ketchup TV; Kidoodle.TV; LEGO Kids TV; Leave it to Bryan; Little Angel's Playroom; Little Stars Universe; Max & Ruby; Minimax CEE; Mister Rogers' Neighborhood; Mona The Vampire; NCM Educational & Kids Channel; New Channel; New Channel Pop!; Nick Jr. Asia; Nickelodeon Asia; PBS Kids Eastern/Central; Peppa Pig; Pluto TV Kids; Pluto TV Retro Kid; Strawberry Shortcake and Friends; The Raccoons; The Smurfs; Tortues Ninja TV; Transformers TV
   [English - Animation & Anime] Anime x HIDIVE; BBC Four/CBeebies; BBC Three/CBBC; Boruto: Naruto Next Generations; Crunchyroll; DreamWorks Channel Asia; Inuyasha; Minimax; Pluto TV Anime; Pluto TV Anime Movies; Pluto TV Retro Toons; Sailor Moon; Yu-Gi-Oh!
   [English - Family] Asia TV; Hallmark Channel
-  [English - Music] ACW UG TV; CMT Equal Play; Canela Hits; Canela Music Presents; Classica; DanceTV EDM Mainstage; DanceTV Minimal Tech; GMTV; HMTV; MTV Biggest Pop; MTV Classic; MTV Spankin' New; Mezzo; NEW K-POP; Soundcity TV; That's 70s; That's 80s; VH1; Vevo '70s; Vevo '80s; Vevo '90s; Vevo 2010s; Vevo 2K; Vevo Country; Vevo Hip Hop; Vevo R&B; Vevo Regional Mexicano; Vevo Retro Rock; Vevo Rock; XITE Classic Country
+  [English - Music] ACW UG TV; CMT Equal Play; Canela Hits; Canela Music Presents; Classica; DanceTV EDM Mainstage; DanceTV Minimal Tech; GMTV; MTV Biggest Pop; MTV Classic; MTV Spankin' New; Mezzo; Music Box Classic; Music Box Dance; Music Box Hits; Music Box Sexy; NEW K-POP; Soundcity TV; That's 70s; That's 80s; VH1; Vevo '70s; Vevo '80s; Vevo '90s; Vevo 2010s; Vevo 2K; Vevo Country; Vevo Hip Hop; Vevo R&B; Vevo Regional Mexicano; Vevo Retro Rock; Vevo Rock; XITE Classic Country
   [English - Food & Cooking] Best of Bobby Flay by Food Network; Chef vs Chef by Food Network; Delicious Eats by Food Network; Drool; Home Cooking by Food Network; Kitchen Battles; No Reservations; Top Chef; Travel & Food TV
-  [English - Lifestyle, Travel & Hobbies] BX Arts; BX Culture; CTV Life Channel; Chip & Jo: Feels Like Home by Magnolia Network; Cigar TV; Cottage Life; Donut; FNX; FashionTV Asia; FashionTV Europe; Fixers and Flippers; Global Trekker; Income Property; Jamaica Travel Channel; Maldives TV; NYXT; Pluto TV Cars; Property Brothers; Pursuit Channel; RFD-TV; RTG int.; Relic Hunter; Reno Duo; Reno Rehab; Rustic Retreats; Space Live powered by sen; Spike Outdoors; TV Warehouse; Tanzania Safari Channel; Tastemade Smokehouse; Ultimate Builds
-  [English - General TV] AuroraTV; BBC One; BBC Scotland; BBC Three; BBC Two; BBC UHD 1; BBC UHD 2; BBC UHD 3; BBC UHD 4; BX Inform; BX Omni; CCX1; CHCH-DT; CMAC 1; CTB Perth; CTV 2 Atlantic; Canaf54 TV; Caribbean Hot 7 TV; Concord TV; FCTV; GCO.tv; GTV; HBTV; ITV1; ITV2; ITV4; Latest TV; Littleton 8 TV; Mindanow Network TV; Montgomery Channel; Myanmar International TV; NCM Main Channel; NTV7; Nevis Television; OSBC TV; SCVTV; SF Commons 29; SF Commons 76; Smash TV; TBCN; TVS Television Network; Tele Regency TV; The Burbank Channel; UTV Africa; VCAT; VSCTV; Waffi TV; Yobe TV
-  [English - Other Channels] AMC Cupid; APTN Beyond; AWSN; Aftershock; Beach Day; CNV/Montreal; Comercio TV; Cool Summer Channel; El Rey Rebel; Flow Caribe; GrowthDay Network; H20 TV; Haz Clic!; Icons Unearthed+; Laff More; Life Minute; Love Stories TV; MBC; Monkey; PLL Network; PixL TV; Plus TLT; Pomona Internet Streaming Channel; RigTV; Shockwave; Sony One Competencias; Starz Encore Spanish; Super Channel Hearties; TV One; TVC; Talking Pictures TV; TeleRadyo; Temecula TV; That's TV; The Therapy Crouch; TidPix-Authentically African; Together TV; Tony Robbins Network; Trigger; U&W; Uvagut TV; Warner Bros. TV Sweet Escapes; Weird or What? With William Shatner; Whose Line Is It Anyway?; Zoomer TV
-  [World - Movie Brands (other languages)] AXN (Portugal); AXN Movies (Spain); Film1 Action (Netherlands); Film1 Drama (Netherlands); Film1 Family (Netherlands); Film1 Premiere (Netherlands); Sony Movies Latin America; Star Movies (Portugal); Star Movies (Slovenia)
+  [English - Lifestyle, Travel & Hobbies] 30A Darcizzle Offshore; BX Arts; BX Culture; CTV Life Channel; Chip & Jo: Feels Like Home by Magnolia Network; Cigar TV; Cottage Life; Donut; FNX; FashionTV Asia; FashionTV Europe; Fixers and Flippers; Global Trekker; Income Property; Jamaica Travel Channel; Maldives TV; MyZen Wellbeing TV; NYXT; Pluto TV Cars; Property Brothers; Pursuit Channel; RFD-TV; RTG int.; Relic Hunter; Reno Duo; Reno Rehab; Rustic Retreats; Space Live powered by sen; Spike Outdoors; TV Warehouse; Tanzania Safari Channel; Tastemade Smokehouse; Ultimate Builds
+  [English - General TV] AuroraTV; BBC One; BBC Scotland; BBC Three; BBC Two; BBC UHD 1; BBC UHD 2; BBC UHD 3; BBC UHD 4; BX Inform; BX Omni; CCX1; CHCH-DT; CMAC 1; CTB Perth; CTV 2 Atlantic; Caribbean Hot 7 TV; Concord TV; FCTV; GCO.tv; GTV; HBTV; ITV1; ITV2; ITV4; Kantipur TV; Littleton 8 TV; Mindanow Network TV; Montgomery Channel; NCM Main Channel; NTV7; Nevis Television; Rapid TV; SCVTV; SF Commons 29; SF Commons 76; Smash TV; TBCN; Tele Regency TV; The Burbank Channel; UTV Africa; VCAT; VSCTV; Waffi TV; Yobe TV
+  [English - Other Channels] AMC Cupid; APTN Beyond; AWSN; Aftershock; Beach Day; CNV/Montreal; Comercio TV; Cool Summer Channel; El Rey Rebel; Flow Caribe; GrowthDay Network; H20 TV; Haz Clic!; Icons Unearthed+; Laff More; Life Minute; Love Stories TV; MBC; Monkey; PLL Network; PixL TV; Plus TLT; Pomona Internet Streaming Channel; RigTV; Shockwave; Sony One Competencias; Starz Encore Spanish; Super Channel Hearties; TV One; Talking Pictures TV; TeleRadyo; Temecula TV; That's TV; The Therapy Crouch; TidPix-Authentically African; Together TV; Tony Robbins Network; Trigger; U&W; Uvagut TV; Viasat 3; Viasat 6; Viasat2; Warner Bros. TV Sweet Escapes; Weird or What? With William Shatner; Whose Line Is It Anyway?; Zoomer TV
+  [World - Movie Brands (other languages)] AXN (Portugal); AXN Movies (Spain); Canal+ Cinemas (France); Film1 Action (Netherlands); Film1 Drama (Netherlands); Film1 Family (Netherlands); Film1 Premiere (Netherlands); Star Movies (Portugal); Star Movies (Slovenia); Warner Channel (United States)

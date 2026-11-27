@@ -1,20 +1,20 @@
-IPTV playlist test - 2026-11-26 21:44 UTC
-Tested from a GitHub server (USA). Took 238 seconds.
+IPTV playlist test - 2026-11-27 08:48 UTC
+Tested from a GitHub server (USA). Took 237 seconds.
 
 Channels tested : 1809
-Working         : 1421
-Removed (dead)  : 388
-Saved by a backup link : 69
+Working         : 1425
+Removed (dead)  : 384
+Saved by a backup link : 72
 
 Per category (working / tested):
-     4 / 13    Urdu - Drama & Entertainment
+     5 / 13    Urdu - Drama & Entertainment
      0 / 3     Urdu - Movies
-     3 / 14    Urdu - General
+     4 / 14    Urdu - General
      1 / 2     Urdu - Kids
      2 / 4     Urdu - Music
      2 / 2     Urdu - Food, Travel & Lifestyle
-     0 / 5     Urdu - Sports
-    14 / 36    Urdu - News
+     1 / 5     Urdu - Sports
+    16 / 36    Urdu - News
     20 / 27    Urdu - Religious
      1 / 6     Pakistan - Regional (Pashto, Punjabi, Sindhi)
     23 / 39    Hindi - Movies
@@ -25,14 +25,14 @@ Per category (working / tested):
     16 / 18    Hindi - Music
      3 / 4     Hindi - Lifestyle
      1 / 7     Hindi - Sports
-    30 / 34    Hindi - General
+    28 / 34    Hindi - General
     58 / 79    English - Movies
     15 / 19    English - Movies: Action & Thriller
     13 / 15    English - Movies: Horror & Sci-Fi
     11 / 16    English - Movies: Comedy, Romance & Family
     25 / 27    English - Movies: Classics & Westerns
    153 / 166   English - Series & Drama
-   107 / 116   English - Crime & Reality
+   106 / 116   English - Crime & Reality
     48 / 54    English - Comedy
    104 / 129   English - Entertainment
     27 / 30    English - Classic TV
@@ -45,22 +45,22 @@ Per category (working / tested):
    127 / 147   English - Music
     29 / 32    English - Food & Cooking
    122 / 145   English - Lifestyle, Travel & Hobbies
-    78 / 122   English - General TV
-   127 / 165   English - Other Channels
-    16 / 27    World - Movie Brands (other languages)
+    80 / 122   English - General TV
+   126 / 165   English - Other Channels
+    17 / 27    World - Movie Brands (other languages)
 
 Why links failed (first link of each removed channel):
-   136  URLError
-    91  HTTP 404
+   135  URLError
+    87  HTTP 404
     80  HTTP 403
     16  HTTP 400
+    13  video segment missing
     13  HTTP 503
-    12  video segment missing
     12  quality list broken
      9  HTTP 502
-     6  no video segments
+     5  no video segments
      4  not a video stream
-     2  web page instead of video
+     3  web page instead of video
      2  HTTP 504
      1  TimeoutError
      1  HTTP 401
@@ -69,13 +69,13 @@ Why links failed (first link of each removed channel):
      1  HTTP 574
 
 Removed channels:
-  [Urdu - Drama & Entertainment] ATV; Aaj Entertainment; Express Entertainment; Falak TV; HarPal Geo; LTN Family; Mehran TV; Play Entertainment; SAB TV
+  [Urdu - Drama & Entertainment] ATV; Aaj Entertainment; Express Entertainment; HarPal Geo; LTN Family; Mehran TV; Play Entertainment; SAB TV
   [Urdu - Movies] Filmax; Filmazia; Silver Screen
-  [Urdu - General] Apna Channel; BS Film; BSTV; Jeremiah TV; Kay2 HD; Raavi TV; Sindh TV; Star Asia; TV One Global; TV Today; Venus HD
+  [Urdu - General] Apna Channel; BS Film; BSTV; Kay2 HD; Raavi TV; Sindh TV; Star Asia; TV One Global; TV Today; Venus HD
   [Urdu - Kids] Kids Zone
   [Urdu - Music] 8XM; ARY Musik
-  [Urdu - Sports] M Sports; One Golf; PK Sports; PTV Sports; Ten Sports Pakistan
-  [Urdu - News] 365 News; 4TV News; 7 News; 92 News HD; ARY News; Aaj News; Abb Takk; Aik News; City 41; Hum News; Kohenoor News; Lahore Rang; M News; Metro1 News; ON News HD; PTV News; Public News; Roze News; Sindh TV News; Sky News Urdu; Suno News HD; VSH News
+  [Urdu - Sports] One Golf; PK Sports; PTV Sports; Ten Sports Pakistan
+  [Urdu - News] 4TV News; 7 News; 92 News HD; ARY News; Aaj News; Abb Takk; Aik News; City 41; Hum News; Kohenoor News; Lahore Rang; Metro1 News; ON News HD; PTV News; Public News; Roze News; Sindh TV News; Sky News Urdu; Suno News HD; VSH News
   [Urdu - Religious] Iqra TV; MTA1 World; MTA2 Europe; MTA6 Asia; MTA7 Asia; Quran TV; Shine Star TV
   [Pakistan - Regional (Pashto, Punjabi, Sindhi)] AVT Khyber; Mashriq TV; Pashto 1; Rohi; Waseb TV
   [Hindi - Movies] Bflix Movies; Goldmines 2; Goldmines Action; MH One Movies; NH BollyGold; Pocket Films; Shemaroo Bollywood; Shemaroo Filmi Gaane; Sony Max; Sony Wah; Star Gold; Star Gold 2; Zee Cine Classic; Zee Cinema; Zee Cinemalu; Zee South Flix
@@ -86,14 +86,14 @@ Removed channels:
   [Hindi - Music] Andy Haryana; Deewana HD
   [Hindi - Lifestyle] Travelxp
   [Hindi - Sports] Kabaddi 24x7; Sony Sports Ten 3 Hindi; Star Sports 2; Star Sports 2 Hindi; Star Sports 3; Star Sports Select 1
-  [Hindi - General] Jus Hindi; Jus One; Superhitz; TV2
+  [Hindi - General] Aryan TV National; Colors Rishtey Americas; Jus Hindi; Jus One; Superhitz; TV2
   [English - Movies] AMC; AMC Europe; CTB Perth Movies Channel; CinemaWorld; Genie K Movie; HBO Movies; HITS Movies; Magnificent Movies Network; Movies Now; NEW K.MOVIES; Paramount Network; Rakuten TV Drama Movies; Rakuten TV Top Movies; Sony Pix; Star Movies; Star Movies Select; Starz Cinema; Summer of Movies; The Film Detective; Thrill; USA Network
   [English - Movies: Action & Thriller] AXN Crime; OSN Movies Action; Rakuten TV Action Movies; Rakuten TV Thrillers UK
   [English - Movies: Horror & Sci-Fi] More TV Sci-fi; Rakuten TV Sci-Fi UK
   [English - Movies: Comedy, Romance & Family] Puro Romance; Rakuten TV Comedy Movies; Rakuten TV Family Movies; Rakuten TV Romance Movies UK; Universal Comedy
   [English - Movies: Classics & Westerns] Cinevault 80s; TVS Film Noir Network
   [English - Series & Drama] Epic Drama; Genie K Drama; Homicide Hunter; Johnny Carson TV; K Drama+; Kentucky Educational Television; Location Location Location; Million Dollar Listing; Outer Vision; RomCom K-Drama; Scorpion; T+E; U&Alibi
-  [English - Crime & Reality] AMC Reality; Crime Beat TV; Crime and Evidence; Love After Lockup; Rakuten TV Reality UK; The Biggest Loser; The Masked Singer; True Crime Network; U&Real Heroes
+  [English - Crime & Reality] AMC Reality; Bravo; Crime Beat TV; Crime and Evidence; Love After Lockup; Rakuten TV Reality UK; The Biggest Loser; The Masked Singer; True Crime Network; U&Real Heroes
   [English - Comedy] Gagsnetwork; Humor Mill; Kevin Hart's LOL! Network; Laff; Planet Fun; U&Laughs
   [English - Entertainment] 5USA; A&E; AXN White; BBC America; BBC Brit; Colors Infinity; E! Keeping Up; E4; El Rey; ITV3; KIX; Kingsview TV; Lifetime Asia; MTV2; MeTV; More4; OTV; ROCK Action; ROCK Entertainment; ROCK X Stream; TMZ; Talkin Live Classics TV; The Yellow Couch with Jeremy Lynch; meWATCH LIVE 1; tvN Asia
   [English - Classic TV] The Carol Burnett Show; Timeless TV; Wanted: Dead or Alive
@@ -106,6 +106,6 @@ Removed channels:
   [English - Music] ACW UG TV; AXS TV; Canela Hits; Canela Music Presents; DanceTV EDM Mainstage; DanceTV Minimal Tech; GMTV; HMTV; Mezzo; Music Box 80s; Music Box Classic; Music Box Dance; Music Box Hits; Music Box Sexy; NEW K-POP; Soundcity TV; VH1; Vevo 2010s; Vevo Hip Hop; Vevo Retro Rock
   [English - Food & Cooking] Drool; Top Chef; Travel & Food TV
   [English - Lifestyle, Travel & Hobbies] BBC Lifestyle; BX Arts; BX Culture; CTV Life Channel; Cigar TV; Cottage Life; Donut; FNX; Fashion TV; Fashion&LifeStyle; FashionTV Asia; FashionTV Europe; Global Trekker; Jamaica Travel Channel; Kaloopy TV; Magnolia Network; Maldives TV; Monte Carlo Digital Television; MyZen Wellbeing TV; NYXT; RFD-TV; TV Warehouse; Tanzania Safari Channel
-  [English - General TV] AuroraTV; BBC One; BBC Scotland; BBC Three; BBC Two; BBC UHD 1; BBC UHD 2; BBC UHD 3; BBC UHD 4; BX Inform; BX Omni; CCX1; CHCH-DT; CMAC 1; CTB Perth; CTV 2 Atlantic; Concord TV; FCTV; GCO.tv; HBTV; Hala London; ITV1; ITV2; ITV4; Little Guyana TV; Littleton 8 TV; Montgomery Channel; Myanmar International TV; NCM Main Channel; NTV7; OSBC TV; S Metro TV; SCVTV; SF Commons 29; SF Commons 76; Smash TV; TBCN; Tele Pam; The Burbank Channel; UTV Africa; VCAT; VSCTV; Waffi TV; Yobe TV
-  [English - Other Channels] AMC Cupid; Adinkra TV; Aftershock; CNV/Montreal; Comercio TV; Cool Summer Channel; Flow Caribe; H20 TV; Haz Clic!; Laff More; Life Minute; Love Stories TV; MBC; Oxygen; PLL Network; PixL TV; Plus TLT; Pomona Internet Streaming Channel; Shockwave; Sony One Competencias; Starz Encore Spanish; TV One; Talking Pictures TV; Temecula TV; That's TV; TidPix-Authentically African; Together TV; Trigger; U&W; Uvagut TV; Viasat 3; Viasat 6; Viasat2; Victory+; Weird or What? With William Shatner; Zee TV Asia Pacific; Zoomer TV; truTV
-  [World - Movie Brands (other languages)] AXN (Portugal); AXN Movies (Spain); AXN Spin (Poland); Canal+ Cinemas (France); Film1 Action (Netherlands); Film1 Drama (Netherlands); Film1 Family (Netherlands); Film1 Premiere (Netherlands); Star Movies (Portugal); Star Movies (Slovenia); TNT Series Latin America
+  [English - General TV] AuroraTV; BBC One; BBC Scotland; BBC Three; BBC Two; BBC UHD 1; BBC UHD 2; BBC UHD 3; BBC UHD 4; BX Inform; BX Omni; CCX1; CHCH-DT; CMAC 1; CTB Perth; CTV 2 Atlantic; Concord TV; FCTV; GCO.tv; HBTV; ITV1; ITV2; ITV4; Little Guyana TV; Littleton 8 TV; Montgomery Channel; NCM Main Channel; NTV7; OSBC TV; S Metro TV; SCVTV; SF Commons 29; SF Commons 76; Smash TV; TBCN; Tele Pam; The Burbank Channel; UTV Africa; VCAT; VSCTV; Waffi TV; Yobe TV
+  [English - Other Channels] AMC Cupid; Adinkra TV; Aftershock; CNV/Montreal; Comercio TV; Cool Summer Channel; Flow Caribe; H20 TV; Haz Clic!; Laff More; Life Minute; Love Stories TV; MBC; Oxygen; PLL Network; PixL TV; Plus TLT; Pomona Internet Streaming Channel; Shockwave; Sony One Competencias; Starz Encore Spanish; TV One; Talking Pictures TV; TeleRadyo; Temecula TV; That's TV; TidPix-Authentically African; Together TV; Trigger; U&W; Uvagut TV; Viasat 3; Viasat 6; Viasat2; Victory+; Weird or What? With William Shatner; Zee TV Asia Pacific; Zoomer TV; truTV
+  [World - Movie Brands (other languages)] AXN (Portugal); AXN Movies (Spain); Canal+ Cinemas (France); Film1 Action (Netherlands); Film1 Drama (Netherlands); Film1 Family (Netherlands); Film1 Premiere (Netherlands); Star Movies (Portugal); Star Movies (Slovenia); TNT Series Latin America
